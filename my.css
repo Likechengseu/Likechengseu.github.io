@@ -190,7 +190,7 @@ table{
     border: 1px solid black; /* 为表格整体添加边框 */
 }
 
- th,td,th_end{
+ th,td{
     /* 单元格 */
     padding: 8px;
     text-align: center;
@@ -203,10 +203,6 @@ th{
     /* 表头 */
     background-color: #4e99f2;
     color: white;
-}
-td_end{
-	/*批准号*/
-	text-align: left;
 }
 
 /* 使用 CSS 计数器 */
