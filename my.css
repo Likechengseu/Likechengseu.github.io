@@ -186,9 +186,7 @@ table{
     width: 90%;
     border-collapse: collapse;/* 确保边框不会重复 */
     background-color: #e0eeff; /* 表格背景颜色 */
-    margin-left: 50px auto;
-    margin-right: 50px auto;
-    margin-top: 20px auto;
+    margin: 20px auto;
     border: 1px solid black; /* 为表格整体添加边框 */
 }
 
