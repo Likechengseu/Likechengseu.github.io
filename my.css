@@ -183,14 +183,14 @@ p {
 /************** project table *****************/
 
 table{
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;/* 确保边框不会重复 */
-    background-color: #4e99f2; /* 表格背景颜色 */
+    background-color: #93c4ff; /* 表格背景颜色 */
     margin: 50px auto;
-    border: 2px solid black; /* 为表格整体添加边框 */
+    border: 1px solid black; /* 为表格整体添加边框 */
 }
 
- th,td{
+ th,td,th_end{
     /* 表头 */
     padding: 8px;
     text-align: center;
@@ -199,10 +199,14 @@ table{
     border: 1px solid black; /* 为单元格添加边框 */
 }
 
-th{
+th,th_end{
     /* 单元格 */
-    background-color: #e0e0e0;
+    background-color: #4e99f2;
     color: white;
+}
+th_end{
+	/*批准号*/
+	text-align: left;
 }
 
 /* 使用 CSS 计数器 */
