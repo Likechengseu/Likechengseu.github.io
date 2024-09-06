@@ -183,7 +183,7 @@ p {
 /************** project table *****************/
 
 table{
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;/* 确保边框不会重复 */
     background-color: #e0eeff; /* 表格背景颜色 */
     margin: 50px auto;
