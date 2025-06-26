@@ -192,8 +192,8 @@ ul {
 line {
     display: grid;
     grid-template-columns: 80px 1fr; /* 设置 time 和 event 的列宽比例 */
-    gap: 30px; /* 设置 time 和 event 之间的间距 */
-    margin: 5px;
+    gap: 25px; /* 设置 time 和 event 之间的间距 */
+    margin: 10px;
     padding:0 px;
 }
 
