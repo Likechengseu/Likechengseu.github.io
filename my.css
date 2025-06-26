@@ -198,7 +198,7 @@ line{
 
 time {
         flex: 0 0 auto; /* 固定宽度，不伸缩 */
-        min-width: 150px; /* 确保前半段有最小宽度，保持对齐 */
+        min-width: 100px; /* 确保前半段有最小宽度，保持对齐 */
 	font-weight: 700; /* 前半段加粗 */
 	text-align: left;
         }
