@@ -186,7 +186,7 @@ ul {
         padding-left: 0; /* 移除默认左内边距 */
         margin-left: 0; /* 移除默认左外边距 */
 	align-items: flex-start;
-	line-height:200%;
+	line-height: 150%;
         }
 
 time {
