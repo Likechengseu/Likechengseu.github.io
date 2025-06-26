@@ -193,7 +193,7 @@ line {
     display: grid;
     grid-template-columns: 65px 1fr; /* 设置 time 和 event 的列宽比例 */
     gap: 25px; /* 设置 time 和 event 之间的间距 */
-    margin: 8px;
+    margin-bottom: 15px; /* 增大每个 line 之间的间距 */
     padding:0 px;
 }
 
