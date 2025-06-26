@@ -182,7 +182,7 @@ p {
 
 /************** news time *****************/
 line{
-	display: flex;
+	display: block;
         align-items: flex-start; /* 改为 flex-start 以适应换行后的垂直对齐 */
         margin-bottom: 10px; /* 行间距 */
 }
