@@ -192,7 +192,7 @@ ul {
 line{
 	display: flex;
         align-items: flex-start;
-	margin: 5px 0;
+	margin: 5px;
         padding: 0px;
 	}
 
@@ -206,7 +206,7 @@ time {
 event {
         flex: 0 0 auto; /* 固定宽度，不伸缩 */
 	margin-left:25px; /* 固定间距，50px 为前后半段之间的距离 */
-	max-width: 800px; /* 限制第二段最大宽度，触发换行 */
+	max-width: 500px; /* 限制第二段最大宽度，触发换行 */
         overflow-wrap: break-word; /* 确保长单词或文本自动换行 */
 	word-break: keep-all; /* 防止尴尬换行 */
         }
