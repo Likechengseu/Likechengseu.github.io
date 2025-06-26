@@ -180,13 +180,7 @@ p {
     color: #777777;
 }
 
-/************** news time *****************/
-line{
-	display: flex;
-        align-items: flex-start;
-	margin: 5px;
-        padding: 0px;
-	}
+/************** news time *****************
 ul {
         list-style-type: none; /* 移除编号或项目符号 */
         padding-left: 0; /* 移除默认左内边距 */
@@ -195,10 +189,18 @@ ul {
 	text-align: left;
         }
 
+line{
+	display: flex;
+        align-items: flex-start;
+	margin: 5px 0;
+        padding: 0px;
+	}
+
 time {
         flex: 0 0 auto; /* 固定宽度，不伸缩 */
         min-width: 150px; /* 确保前半段有最小宽度，保持对齐 */
 	font-weight: 700; /* 前半段加粗 */
+	text-align: left;
         }
 
 event {
