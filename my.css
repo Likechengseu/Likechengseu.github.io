@@ -191,6 +191,7 @@ ul {
 
 line{
 	display: flex;
+	justify-content: flex-start;
         align-items: flex-start;
 	margin: 5px;
         padding: 0px;
