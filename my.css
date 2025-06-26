@@ -182,13 +182,14 @@ p {
 
 /************** news time *****************/
 time {
-            flex: 0 0 auto; /* 固定宽度，不伸缩 */
-            min-width: 150px; /* 确保前半段有最小宽度，保持对齐 */
-            text-align: right; /* 前半段右对齐，视觉上更整齐 */
+        flex: 0 0 auto; /* 固定宽度，不伸缩 */
+        min-width: 150px; /* 确保前半段有最小宽度，保持对齐 */
+        text-align: right; /* 前半段右对齐，视觉上更整齐 */
+	font-weight: bold; /* 前半段加粗 */
         }
 event {
-            flex: 0 0 auto; /* 固定宽度，不伸缩 */
-            margin-left: 50px; /* 固定间距，50px 为前后半段之间的距离 */
+        flex: 0 0 auto; /* 固定宽度，不伸缩 */
+	margin-left: 50px; /* 固定间距，50px 为前后半段之间的距离 */
         }
 
 /************** project table *****************/
