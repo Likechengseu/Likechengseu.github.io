@@ -189,28 +189,23 @@ ul {
 	text-align: left;
         }
 
-line{
-	display: flex;
-        align-items: flex-start;
-	margin: 5px;
-        padding: 0px;
-	width: 80%;
-	}
+line {
+    display: grid;
+    grid-template-columns: 80px 1fr; /* 设置 time 和 event 的列宽比例 */
+    gap: 30px; /* 设置 time 和 event 之间的间距 */
+    margin: 5px;
+    padding:0 px;
+}
 
 time {
-        flex: 0 0 auto; /* 固定宽度，不伸缩 */
-        width: 80px; /* 确保前半段固定宽度，保持对齐 */
-	font-weight: 700; /* 前半段加粗 */
-	text-align: left;
-	word-break: keep-all;
+        font-weight: 700;
+    	text-align: left;
         }
 
 event {
-        flex: 1; 
-	flex-grow: 1;
-	margin-left: 30px; /* 固定间距，50px 为前后半段之间的距离 */
         overflow-wrap: break-word; /* 确保长单词或文本自动换行 */
 	word-break: keep-all; /* 防止尴尬换行 */
+}
         }
 
 /************** project table *****************/
