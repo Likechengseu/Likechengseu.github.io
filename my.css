@@ -206,7 +206,7 @@ time {
 event {
         flex: 1; 
 	flex-grow: 1
-	margin-left:10px; /* 固定间距，50px 为前后半段之间的距离 */
+	margin-left:30px; /* 固定间距，50px 为前后半段之间的距离 */
         overflow-wrap: break-word; /* 确保长单词或文本自动换行 */
 	word-break: keep-all; /* 防止尴尬换行 */
         }
